@@ -1,0 +1,3 @@
+# Create a ship with stocked torpedo stores that second TORPEDO will defintely fail
+GT4500,0,1,10,0
+TORPEDO,ALL  # should TRY both of TORPEDOS must be fired 

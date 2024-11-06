@@ -1,0 +1,13 @@
+# SINGLE: fires only one of the bays.
+  #             - For the first time the primary store is fired. (checked in input-0)
+  #             - To give some cooling time to the torpedo stores, torpedo stores are fired
+  #               alternating.
+  #             - But if the store next in line is empty, the ship tries to fire the other store.
+# Create a ship with stocked torpedo stores that defintely fire.
+GT4500,2,0,3,0
+TORPEDO,SINGLE  # wheter alternating for cooling time for one another,here fisrt TORPEDO fire
+TORPEDO,SINGLE  # here second TORPEDO fire
+TORPEDO,SINGLE  # here first torpedo fire, and if it is not successful, its not altering.
+TORPEDO,SINGLE  # here second torpedo fire, because another torpedo store is empty aready.
+TORPEDO,SINGLE  # here second torpedo fire
+TORPEDO,SINGLE  # here no TORPEDOS to fire gives an failure
