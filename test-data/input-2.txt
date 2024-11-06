@@ -9,5 +9,5 @@ TORPEDO,SINGLE  # wheter alternating for cooling time for one another,here fisrt
 TORPEDO,SINGLE  # here second TORPEDO fire
 TORPEDO,SINGLE  # here first torpedo fire, and if it is not successful, its not altering.
 TORPEDO,SINGLE  # here second torpedo fire, because another torpedo store is empty aready.
-TORPEDO,SINGLE  # here second torpedo fire
+TORPEDO,SINGLE  # here second torpedo fire k
 TORPEDO,SINGLE  # here no TORPEDOS to fire gives an failure
